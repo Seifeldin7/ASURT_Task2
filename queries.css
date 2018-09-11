@@ -1,0 +1,57 @@
+@media only screen and (max-width:1200px){
+    .row{
+        padding: 0 2%;
+    }
+}
+@media only screen and (max-width:1023px){
+    body{font-size: 18px;}
+    .ismall{
+        margin-right: 4%;
+        font-size: 80%;
+    }
+    .list li{
+        font-size: 80%;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+    .customers p{
+        
+        word-spacing: 4px;
+        height:210px;
+        padding: 4%;
+    }
+}
+@media only screen and (max-width:767px){
+    nav{
+        display: none;
+    }
+    .row {
+        padding: 0 4%;
+    }
+    .col{
+        width: 100%;
+        margin:0 0 4% 0;
+    }
+    body{
+        font-size: 16px;
+    }
+   #con{
+       margin-left:5%;
+   }
+   .steps p{
+    margin-top: 30px;
+    }
+    .step{
+   
+    padding: 8px;
+    margin-right: 4%;
+    margin-bottom: 16px;
+    font-size: 100%;
+    height: 40px;
+    width: 40px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    
+}

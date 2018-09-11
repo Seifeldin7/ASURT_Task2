@@ -2,21 +2,24 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta  name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="Welcome to my Website">
     <link rel="stylesheet" type="text/css" href="task2.css">
     <link rel="stylesheet" type="text/css" href="032 grid.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="queries.css" rel="stylesheet" type="text/css">
     <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
+   
     <title>Omni Food</title>
 </head>
 
 <body>
     <header>
         <div class="row">
-            <nav>
                 <img src="logo-white.png" class="image" alt="logo.png">
+            <nav class="navi">
+                
                 <ul class="nav-list">
                     <li><a href="#">Food delivery</a></li>
                     <li><a href="#">How it works</a></li>
@@ -26,8 +29,8 @@
             </nav>
             <div class="heading">
                 <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-                <a href="#" class="btn" id="btn-hungry">I’m hungry </a>
-                <a href="#" class="btn" id="btn-more">Show me more </a>
+                <a href="#" class="btn btn-hungry">I’m hungry </a>
+                <a href="#" class="btn btn-more">Show me more </a>
             </div>
         </div>
     </header>
@@ -184,6 +187,205 @@
             </div>
         </div>
     </section>
+    <section class="opinion">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 customers">
+                <p>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so
+                    Omnifood
+                    is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</p>
+                <img src="customer-1.jpg"><span id="name"> &nbsp; Alberto Duncan</span>
+            </div>
+            <div class="col span-1-of-3 customers">
+                <p>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food
+                    delivery
+                    here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!</p>
+                <img src="customer-2.jpg"><span id="name">&nbsp; Joana Silva</span>
+
+            </div>
+            <div class="col span-1-of-3 customers">
+                <p>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and
+                    ended
+                    up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!</p>
+                <img src="customer-3.jpg"><span id="name">&nbsp; Milton Chapman</span>
+
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <section class="signup">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="container" id="con">
+                    <div class="price-box">
+                        <h3>PREMIUM</h3>
+                        <span class="price">$399</span><span class="small"> / month</span>
+                        <p>That's only 13.30$ per meal</p>
+                    </div>
+                    <div class="service">
+                        <ul class="list">
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>1 meal every day</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Order 24/7</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li> Access to newest creations</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="Sign">
+                        <a href="#" class="btn btn-hungry">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="container">
+                    <div class="price-box">
+                        <h3>PRO</h3>
+                        <span class="price">$149</span><span class="small"> / month</span>
+                        <p>That’s only 14.90$ per meal</p>
+                    </div>
+                    <div class="service">
+                        <ul class="list">
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li> 1 meal 10 days/month</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li> Order 24/7</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Access to newest creations</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="Sign">
+                        <a href="#" class="btn btn-more">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="container">
+                    <div class="price-box">
+                        <h3>STARTER</h3>
+                        <span class="price">$19</span><span class="small"> / meal</span>
+                        <p><br></p>
+                    </div>
+                    <div class="service">
+                        <ul class="list">
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li> 1 meal</li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Order from 8 am to 12 pm</li>
+                            <i class="icon ion-ios-close ismall2"></i>
+                            <li><br></li>
+                            <i class="icon ion-ios-checkmark ismall2"></i>
+                            <li>Free delivery</li>
+                        </ul>
+                    </div>
+                    <div class="Sign">
+                        <a href="#" class="btn btn-more">Sign up now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <section>
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form class="contact" action="#" method="POST">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="emal" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="us" id="us">
+                            <option value="Friends">Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">advertisement</option>
+                            <option value="others">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked>Yes,please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea type="text" name="drop" id="drop" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label> </label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <footer class="foot">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="fnav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="socialnav">
+                    <li><a href="www.facebook.com"><i class="icon ion-logo-facebook"></i></a></li>
+                    <li><a href="www.twitter.com"><i class="icon ion-logo-twitter"></i></a></li>
+                    <li><a href="#"></a><i class="icon ion-logo-googleplus"></i></li>
+                    <li><a href="www.instgram.com"><i class="icon ion-logo-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p >This webpage was created for the course "Design and Develop a Killer Website Using HTML5 and CSS3"
+                by Jonas Schmedtmann. No copyrights here.
+                This webpage is for you! So go and do whatever you want with it and have fun. </p>
+            <p class="bottom">Build with <i class="icon ion-md-heart hrt"></i> in the beautiful city of Lisbon, Portugal, March 2015.</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>
